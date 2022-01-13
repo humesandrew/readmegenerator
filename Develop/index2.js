@@ -31,7 +31,12 @@ var questions = [
     {type: 'input',
     name: 'contributing',
     message: "Any contribution guidelines?"}, 
+
+    {type: 'input',
+    name: "credits",
+    message: "Any credits?"}
 ]
+
 
 
     // {type: 'input',
