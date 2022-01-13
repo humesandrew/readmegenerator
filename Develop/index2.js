@@ -43,6 +43,7 @@ var questions = [
     inquirer.prompt(questions).then(function(data) {
        console.log(data.title);
        
-        fs.writeFile("readme.txt", JSON.stringify(data, null, '\t'), generateMarkdown);
+        // fs.writeFileSync("readme.txt", JSON.stringify(data, null, '\t'), generateMarkdown(data));
+        fs.writeFileSync("readme.txt", generateMarkdown(data));
     }
     )

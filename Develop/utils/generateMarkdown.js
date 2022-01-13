@@ -56,7 +56,7 @@ function generateMarkdown(data) {
       ${renderLicenseSection(data.license)}
 
       ## Contributing
-    ${data.contributor}
+    ${data.contributing}
 
       ## Credits
       List your collaborators, if any, with links to their GitHub profiles.
